@@ -8,7 +8,7 @@ const pseudo = urlSearchParams.get("pseudo");
 console.dir(pseudo);
 
 const socket = io();
-// Fonctions 
+//  Fonctions 
 function displayMessage(textContent,pseudo,date) {
   return ` <div class="post">
         <p class="txtContent">${textContent}</p>
